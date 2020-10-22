@@ -1,0 +1,3 @@
+[submodule "cantina_pd"]
+	path = cantina_pd
+	url = https://github.com/cantina-fam/cantina_pd.git
