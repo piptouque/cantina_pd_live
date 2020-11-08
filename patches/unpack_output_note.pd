@@ -1,4 +1,4 @@
-#N canvas 157 166 827 418 12;
+#N canvas 117 166 827 418 12;
 #X obj 48 19 inlet;
 #X obj 82 71 unpack f f f f;
 #X floatatom 54 127 5 0 0 0 - - -;
@@ -24,7 +24,7 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X coords 0 0 199 1 200 140 1 0 0;
 #X restore 352 124 graph;
-#X obj 116 201 tabwrite \$1-vel;
+#X obj 116 201 tabwrite~ \$1-vel;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 3 0;
