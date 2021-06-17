@@ -1,4 +1,4 @@
-#N canvas 159 173 1397 852 10;
+#N canvas 359 266 1397 852 10;
 #X msg 817 27 \; pd dsp 1;
 #X msg 818 63 \; pd dsp 0;
 #N canvas 57 96 450 250 (subpatch) 0;
@@ -91,7 +91,7 @@
 #X obj 6 351 s output_db_\$0;
 #X obj 569 17 loadbang;
 #X obj 546 82 s draw_interval_\$0;
-#X obj 553 50;
+#X obj 553 50 metro 100;
 #X connect 5 0 4 0;
 #X connect 7 0 6 0;
 #X connect 8 0 7 0;
